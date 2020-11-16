@@ -66,6 +66,11 @@ public class Deportista extends Persona {
        System.out.println("AÑO 2020:\nPartidos totales:"+PT+"\nGoles anotados:"+GA);
           
    }
+
+    @Override
+    int getDNI() {
+        return 10243;
+    }
   
 
 }

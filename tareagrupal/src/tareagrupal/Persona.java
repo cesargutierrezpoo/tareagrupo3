@@ -11,12 +11,13 @@ package tareagrupal;
  * @author vmbv2
  */
 public abstract class Persona {
-
+    
+    abstract int getDNI();
     private String nombre;    
     private int edad;
     private String especialidad;
     private String nacionalidad;
-
+    
 
     // Constructor
     public Persona(){
